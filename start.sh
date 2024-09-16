@@ -14,7 +14,7 @@ update_port () {
 while true; do
   if [ -f $PORT_FORWARDED ]; then
     update_port
-    inotifywait -mq -e close_write $PORT_FORWARDED | while read change; do
+    inotifywait -mq -t ${PORT_UPDATE_TIMEOUT:-0} -e close_write $PORT_FORWARDED | while read change; do
       update_port
     done
   else
