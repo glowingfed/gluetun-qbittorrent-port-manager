@@ -1,4 +1,10 @@
 # gluetun-qbittorrent Port Manager
+ahoy mateys. SnoringDragon hasn't committed in a year, so here's my fork with merges for all the useful PRs.
+enjoy sailing. use this handy tool to download your 8 terabytes of linux ISOs under a VPN
+so the cool kids don't know you use linux.
+
+---
+
 Automatically updates the listening port for qbittorrent to the port forwarded by [Gluetun](https://github.com/qdm12/gluetun/).
 
 ## Description
